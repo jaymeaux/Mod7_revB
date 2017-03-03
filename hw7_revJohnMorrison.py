@@ -48,6 +48,8 @@ while menu_choice != 5:
         if name in usernames:
             del usernames["Name: "]
 
+# hopefully the above is a helpful doc string 
+
     # view user name      
     elif menu_choice == 4:
         print("Lookup User")
